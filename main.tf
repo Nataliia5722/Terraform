@@ -1,7 +1,7 @@
 provider "aws" {
   region  = "us-east-1"   
-  access_key= "AKIAIKYR7UOP3F5T3UIA"
-  secret_key= "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"
+  access_key= "AKIAIKYR7U**3F5T3UIA"
+  secret_key= "6IGHg3IyH9hldX****ADqG6cwrhOuNx1oIJgFgvT"
 }
 
 # Variable to create n instances
