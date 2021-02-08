@@ -121,7 +121,7 @@ output "server_public_ip" {
   value = aws_eip.one.public_ip
 }
 
-# Creating Windows Server 2019 2 instances 
+# Creating 2 instances of Windows Server 2019
 
 resource "aws_instance" "web-server-instance" {
   ami               = "ami-0f5761c546ea1265a"
